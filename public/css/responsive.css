@@ -1,0 +1,162 @@
+
+@keyframes aumentar {
+    0% {
+        transform: scale(1);
+    }   
+    100% {
+        transform: scale(1.5);
+    } 
+}
+@media (min-width: 361px){ 
+    .main-navbar ul{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+    main section article .description{
+        display: block;
+    }
+
+    /*main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }*/
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 520px){
+    .main-navbar ul{
+        display: none;
+    }
+     .main-navbar li{
+        margin: 0 7px;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+    .logo{
+        width: 250px;
+    }
+    .main-header-top-bar{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }    
+    .main-navbar{
+        /*border: dotted 2px red;*/
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+   
+}
+
+@media (min-width: 769px){
+
+    .main-navbar ul{
+        display: block;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+    
+    .logo{
+        width: 250px;
+    }
+    .main-header-top-bar{
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    div.main-header-top-bar p {
+        flex-grow: 0.5;
+      }
+
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+        font-size: 28px;
+    }    
+    .main-navbar{
+        /*border: dotted 2px red;*/
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+    
+    .main-navbar li{
+        margin: 0 7px;
+    }
+
+    main section div.products article{
+        width: 22%;
+    }
+
+    footer .buy-info {
+        width: 30%;
+    }
+
+}
+
+/*
+@media (min-width:1200px){
+    .logo {
+        width: 350px;
+    }
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        margin: 0;
+        max-width: none;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .main-navbar{
+        margin-top: 50px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+
+    .main-navbar a{
+        font-size: 20px;
+    }
+}
+
+*/
