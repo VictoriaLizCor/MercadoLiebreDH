@@ -36,5 +36,5 @@ app.get('*', (req, res) => {
 })
 
 // se ejecuta un callback de confirmación. 
-app.listen(process.env.PORT||port,() =>console.log(`Servidor corriendo en puerto ${port}`));
+app.listen(process.env.PORT||port,() => console.log(`Servidor corriendo en puerto ${port}`));
 
