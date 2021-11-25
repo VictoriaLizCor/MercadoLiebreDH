@@ -287,7 +287,9 @@ footer .buy-info{
     text-align: center;
 }
 
-
+footer .copyright{
+    margin-top: 20px;
+}
 footer i{
     color: #3484fa;
     font-size: 24px;
